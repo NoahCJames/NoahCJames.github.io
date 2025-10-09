@@ -144,7 +144,7 @@
     }
 }
 
- @media screen and (min-width: 1510px) {
+ @media screen and (min-width: 1510px) and (max-width: 2500px) {
     header {
         color: white;
         text-align: center;
@@ -225,6 +225,160 @@
     p {
         text-align: center;
         color: white;
+    }
+
+    .contact {
+        color: white;
+        margin-left: -40vw;
+    }
+
+    li {
+        font-size: 2.25vh;
+    }
+
+    .lists-tech {
+        color: white;
+        padding-left: 5vw;
+        margin-top: -1vh;
+    }
+
+    .lists-work {
+        color: white;
+        padding-left: 5vw;
+        margin-right: 40vw;
+        margin-left: 20vw; 
+        margin-top: -30vh;
+    }
+
+    .lists-school {
+        color: white;
+        padding-left: 5vw;
+        margin-top: -1vh;
+        margin-left: 40vh; 
+        margin-top: -1vh;
+        margin-bottom: 2.1vh;
+    }
+
+    .lists h3 {
+        font-size: 3.2vh;
+    }
+
+    footer {
+        color: lightgray; 
+        clear: both; 
+        position: sticky;
+        text-align: center;
+    }
+
+    .center a:link {
+       text-decoration: none; 
+    }
+
+    .center a:visited {
+        text-decoration: none;
+    }
+
+    a:link {
+        color: white;
+    }
+
+    a:visited {
+           color: white;
+    }
+
+    footer a:link {
+        color: lightgray;
+        text-decoration: none;
+    }
+
+    footer a:visited {
+        color: lightgray;
+        text-decoration: none;
+    }
+}
+
+ @media screen and (min-width: 2500px) {
+    header {
+        color: white;
+        text-align: center;
+        font-family:  "Lucida Calligraphy", cursive;
+        padding-bottom: 5vh;
+        font-size: 3vh;
+        margin-left: -40vw;
+        padding-top: 5vh;
+        margin-top: 10vh;
+    }
+
+    h2 {
+        color: white;
+        margin-bottom: 10vh;
+        margin-left: -40vw;
+    }
+
+    h3 {
+        margin-bottom: -0.5vh;
+        font-size: 3.5vh;
+    }
+
+    body {
+        margin: 0;
+        background-image: url("../Background-Photo.jpg");
+        background-size: cover; 
+        background-position: center center;
+    }
+
+    .resume {
+        float: right;
+        margin-top: -79vh;
+        margin-right: 2vw;
+        width: 34vw; 
+        height: 91vh;
+    }
+
+    .photo {
+        float: right;
+        height: 90vh;
+        margin-top: -72.5vh;
+        margin-bottom: 3vh;
+        margin-right: 4.5vw;
+    }
+
+    #nav {
+        border: 0.4vh solid white;
+        width: fit-content;
+        padding: 0.6vh;
+        color: black;
+        background-color: white;
+        size: 100vh;
+    }  
+
+    .fallJump {
+        margin-top: -60vh;
+        float: right;
+        border: 0.4vh solid red;
+        width: 65vh;
+        color: black;
+        background-color: black;
+        margin-right: 5vw;
+    }
+
+    .fall-photo {
+        float: right;
+        height: 38vh;
+        margin-top: -21.7vh;
+        margin-bottom: 7vh;
+        margin-right: 4.5vw;
+    }
+
+    .center {
+        text-align: center;
+        margin-top: -5vh;
+    }
+
+    p {
+        text-align: center;
+        color: white;
+        margin-top: 4vh;
     }
 
     .contact {
