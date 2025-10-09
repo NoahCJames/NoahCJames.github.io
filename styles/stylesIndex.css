@@ -1,0 +1,114 @@
+header {
+    color: white;
+    text-align: center;
+    font-family:  "Lucida Calligraphy", cursive;
+    padding-bottom: 5vh;
+    font-size: 3vh;
+    margin-right: 35vh;
+    padding-top: 10vh;
+}
+
+h2 {
+    color: white;
+    margin-bottom: 10vh;
+}
+
+h3 {
+    margin-bottom: -0.5vh;
+    font-size: 5vh;
+}
+
+body {
+    background-image: url("../Background-Photo.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+}
+
+#nav {
+    border: 0.4vh solid white;
+    width: fit-content;
+    padding: 0.6vh;
+    color: black;
+    background-color: white;
+    size: 100vh;
+}
+
+.photo {
+    float: right;
+    margin-top: 5vh;
+    margin-right: 10vh;
+}
+
+.fallJump {
+    margin-right: -67.5vh;
+    margin-top: -26vh;
+    float: right;
+    border: 0.4vh solid red;
+    width: 65vh;
+    padding: 0.6vh;
+    color: black;
+    background-color: black;
+    size: 100vh;
+}
+
+.center {
+    text-align: center;
+    margin-top: -5vh;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+.contact {
+    color: white;
+}
+
+li {
+    font-size: 2.25vh;
+}
+
+.lists {
+    color: white;
+    padding-left: 4vh;
+    margin-top: -1vh;
+}
+
+.lists h3 {
+    font-size: 3.2vh;
+}
+
+footer {
+    color: lightgray; 
+    clear: both; 
+    position: sticky;
+    text-align: center;
+}
+
+.center a:link {
+  text-decoration: none;
+}
+
+.center a:visited {
+  text-decoration: none;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+footer a:link {
+  color: lightgray;
+  text-decoration: none;
+}
+
+footer a:visited {
+  color: lightgray;
+  text-decoration: none;
+}
