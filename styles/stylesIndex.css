@@ -1,4 +1,4 @@
-@media screen and (max-width: 683px) {
+@media screen and (max-width: 1610px) {
     header {
         color: white;
         text-align: center;
@@ -52,10 +52,10 @@
     }  
 
     .fallJump {
+        float: center;
         margin-top: -3vh;
         border: 0.4vh solid red;
-        width: 95vw;
-        padding: 0.6vh;
+        width: 99vw;
         color: black;
         background-color: black;
         size: 100vh;
@@ -144,7 +144,7 @@
     }
 }
 
- @media screen and (min-width: 683px) {
+ @media screen and (min-width: 1610px) {
     header {
         color: white;
         text-align: center;
