@@ -1,4 +1,4 @@
-@media screen and (max-width: 683px) and (orientation: portrait) {
+@media screen and (max-width: 683px) {
     header {
         color: white;
         text-align: center;
@@ -26,6 +26,14 @@
         background-repeat: no-repeat
     }
     
+    .resume {
+        float: right;
+        margin-top: 6.7vh;
+        margin-right: 4vh;
+        width: 35%; 
+        height: 91vh;
+    }
+
     .photo {
         float: center;
         width: 100vw;
@@ -142,6 +150,14 @@
         background-image: url("../Background-Photo.jpg");
         background-size: cover; 
         background-position: center center;
+    }
+
+    .resume {
+        float: right;
+        margin-top: 6.7vh;
+        margin-right: 4vh;
+        width: 35%; 
+        height: 91vh;
     }
 
     .photo {
