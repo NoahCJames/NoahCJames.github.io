@@ -1,4 +1,4 @@
-@media screen and (max-width: 1610px) {
+@media screen and (max-width: 1510px) {
     header {
         color: white;
         text-align: center;
@@ -144,7 +144,7 @@
     }
 }
 
- @media screen and (min-width: 1610px) {
+ @media screen and (min-width: 1510px) {
     header {
         color: white;
         text-align: center;
