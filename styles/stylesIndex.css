@@ -15,7 +15,7 @@
 
     h3 {
         margin-bottom: -0.5vh;
-        font-size: 5vh;
+        font-size: 3.5vh;
     }
 
     body {
@@ -50,15 +50,21 @@
     }  
 
     .fallJump {
-        margin-right: -67.5vh;
-        margin-top: -20vh;
-        float: right;
+        margin-top: -25vh;
         border: 0.4vh solid red;
-        width: 65vh;
+        width: 96vw;
         padding: 0.6vh;
         color: black;
         background-color: black;
         size: 100vh;
+    }
+
+    .fall-photo {
+        float: right;
+        margin-right: 10vw;
+        height: 38vh;
+        margin-top: 55vh; 
+        margin-bottom: 4.5vh;
     }
 
     .center {
@@ -80,7 +86,19 @@
         font-size: 2.25vh;
     }
 
-    .lists {
+    .lists-tech {
+        color: white;
+        padding-left: 4vh;
+        margin-top: -1vh;
+    }
+
+    .lists-work {
+        color: white;
+        padding-left: 4vh;
+        margin-top: -1vh;
+    }
+
+    .lists-school {
         color: white;
         padding-left: 4vh;
         margin-top: -1vh;
@@ -131,18 +149,20 @@
         font-family:  "Lucida Calligraphy", cursive;
         padding-bottom: 5vh;
         font-size: 3vh;
-        margin-right: 35vh;
-        padding-top: 10vh;
+        margin-left: -40vw;
+        padding-top: 5vh;
+        margin-top: 10vh;
     }
 
     h2 {
         color: white;
         margin-bottom: 10vh;
+        margin-left: -40vw;
     }
 
     h3 {
         margin-bottom: -0.5vh;
-        font-size: 5vh;
+        font-size: 3.5vh;
     }
 
     body {
@@ -154,16 +174,18 @@
 
     .resume {
         float: right;
-        margin-top: 6.7vh;
-        margin-right: 4vh;
-        width: 35%; 
+        margin-top: -86.68vh;
+        margin-right: 2vw;
+        width: 34vw; 
         height: 91vh;
     }
 
     .photo {
         float: right;
-        margin-top: 6.7vh;
-        margin-right: 10vh;
+        height: 90vh;
+        margin-top: -75vh;
+        margin-bottom: 3vh;
+        margin-right: 4.5vw;
     }
 
     #nav {
@@ -176,15 +198,21 @@
     }  
 
     .fallJump {
-        margin-right: -67.5vh;
-        margin-top: -20vh;
+        margin-top: -68vh;
         float: right;
         border: 0.4vh solid red;
         width: 65vh;
-        padding: 0.6vh;
         color: black;
         background-color: black;
-        size: 100vh;
+        margin-right: 5vw;
+    }
+
+    .fall-photo {
+        float: right;
+        height: 38vh;
+        margin-top: -21.7vh;
+        margin-bottom: 5.2vh;
+        margin-right: 4.5vw;
     }
 
     .center {
@@ -199,16 +227,34 @@
 
     .contact {
         color: white;
+        margin-left: -40vw;
     }
 
     li {
         font-size: 2.25vh;
     }
 
-    .lists {
+    .lists-tech {
         color: white;
-        padding-left: 4vh;
+        padding-left: 5vw;
         margin-top: -1vh;
+    }
+
+    .lists-work {
+        color: white;
+        padding-left: 5vw;
+        margin-right: 40vw;
+        margin-left: 20vw; 
+        margin-top: -30vh;
+    }
+
+    .lists-school {
+        color: white;
+        padding-left: 5vw;
+        margin-top: -1vh;
+        margin-left: 40vh; 
+        margin-top: -1vh;
+        margin-bottom: 2.1vh;
     }
 
     .lists h3 {
