@@ -1,0 +1,48 @@
+/* src/App.css */
+body {
+  margin: 0;
+  background-color: #121212; /* Dark theme looks very professional for devs */
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5%;
+  background: #1f1f1f;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  padding: 5px 10px;
+  border: 1px solid transparent;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  border: 1px solid white;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 80vh;
+  padding: 0 10%;
+  flex-wrap: wrap;
+}
+
+.profile-photo {
+  max-width: 400px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.contact-info a {
+  color: #00d4ff;
+  text-decoration: none;
+}
