@@ -1,0 +1,30 @@
+.projects-page {
+  padding: 60px 5%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.projects-page h2 {
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+@media (max-width: 768px) {
+  .projects-page {
+    padding: 40px 20px;
+  }
+  
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}

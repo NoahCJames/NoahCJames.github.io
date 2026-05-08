@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import ProjectCard from '../components/ProjectCard';
 import ProjectModal from '../components/ProjectModal';
+import './Projects.css';
 
 function Projects() {
   const [selectedProject, setSelectedProject] = useState(null);
