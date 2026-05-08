@@ -10,9 +10,7 @@ function ProjectCard({ title, description, tech, link, image }) {
         <h3>{title}</h3>
         <p className="tech-stack"><strong>Tech:</strong> {tech}</p>
         <p>{description}</p>
-        <a href={link} target="_blank" rel="noreferrer" className="project-button">
-          View Project
-        </a>
+        <div className="project-button">View Project</div>
       </div>
     </div>
   );

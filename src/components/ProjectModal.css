@@ -1,0 +1,85 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.modal-content {
+  background: #1f1f1f;
+  width: 100%;
+  max-width: 800px;
+  max-height: 90vh;
+  border-radius: 15px;
+  position: relative;
+  overflow-y: auto;
+  border: 1px solid #333;
+}
+
+.close-button {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background: rgba(31, 31, 31, 0.5);
+  border: none;
+  color: #888;
+  font-size: 2.5rem;
+  cursor: pointer;
+  line-height: 0.8;
+  transition: color 0.2s, transform 0.2s;
+  z-index: 1010;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.close-button:hover {
+  color: #bbb;
+  transform: scale(1.1);
+}
+
+.modal-image {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-bottom: 2px solid #333;
+}
+
+.modal-body {
+  padding: 30px;
+  color: white;
+}
+
+.modal-tech {
+  color: #00d4ff;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.modal-description {
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.play-button {
+  display: block;
+  width: fit-content;
+  padding: 12px 40px;
+  background: #00d4ff;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.play-button:hover {
+  background: #00b8e6;
+}
