@@ -17,9 +17,11 @@ function ProjectModal({ project, onClose }) {
             <p>{project.longDescription}</p>
           </div>
           
-          <a href={project.link} target="_blank" rel="noreferrer" className="play-button">
-            Play!
-          </a>
+          {project.link && (
+            <a href={project.link} target="_blank" rel="noreferrer" className="play-button">
+              {project.buttonText}
+            </a>
+          )}
         </div>
       </div>
     </div>

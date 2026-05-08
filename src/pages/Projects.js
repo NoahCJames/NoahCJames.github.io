@@ -9,11 +9,20 @@ function Projects() {
   const projects = [
     {
       title: "Fall Jump",
+      buttonText: "Play!",
       tech: "GameMaker Language (GML)",
       description: "A challenging platformer with strategic movement.",
       longDescription: "Developed for my high school capstone project in 2023. Fall Jump is a platformer where you climb to the top as fast as possible. It requires strategic teleportation and movement. It includes a local leaderboard to track your fastest times.",
       link: "https://n04h500.itch.io/jump-fall",
       image: process.env.PUBLIC_URL + "/Fall Jump Lobby.png"
+    },
+    {
+      title: "RoseShreddedNerds",
+      tech: "JavaScript, HTML, CSS, SQL",
+      description: "A dedicated fitness community for Rose-Hulman students.",
+      longDescription: "RoseShreddedNerds is a platform designed to bridge the gap between academics and fitness at Rose-Hulman. It provides students with a community space to track progress, join exercise classes, and encourage a healthy lifestyle within a high-intensity academic environment.",
+      link: null,
+      image: process.env.PUBLIC_URL + "/RoseShreddedNerds.png" 
     }
   ];
 
