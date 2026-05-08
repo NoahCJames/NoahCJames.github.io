@@ -14,7 +14,6 @@ function Home() {
           </div>
         </div>
         <div className="hero-image">
-          {/* React looks in the 'public' folder for images by default */}
           <img src="/Portfolio-Photo.jpg" alt="Noah James" className="profile-photo" />
         </div>
       </section>

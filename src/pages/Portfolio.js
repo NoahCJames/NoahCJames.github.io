@@ -14,7 +14,6 @@ function Portfolio() {
           image="/Fall Jump Lobby.png" 
         />
         
-        {/* You can easily add a second project here later! */}
       </div>
     </div>
   );

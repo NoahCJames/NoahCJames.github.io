@@ -3,9 +3,8 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
 import './App.css';
-// We will create these next
-const Resume = () => <div style={{color: 'white', padding: '50px'}}>Resume Page Coming Soon</div>;
 
 function App() {
   return (

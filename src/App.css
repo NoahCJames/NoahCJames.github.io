@@ -1,7 +1,6 @@
-/* src/App.css */
 body {
   margin: 0;
-  background-color: #121212; /* Dark theme looks very professional for devs */
+  background-color: #121212;
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
