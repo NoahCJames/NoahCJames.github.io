@@ -42,8 +42,8 @@ function Resume() {
         <h3>Leadership & Activities</h3>
         <ul>
           <li>Triangle Fraternity - Rose Tech Chapter</li>
-          <li>IFC Public Relations and Activities Chair</li>
-          <li>Career Services Volunteer</li>
+          <li>Interfraternity Council Public Relations and Activities Chair</li>
+          <li>Career Services and Employer Relations Volunteer</li>
         </ul>
       </section>
 
