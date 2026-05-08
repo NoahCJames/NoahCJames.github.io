@@ -1,6 +1,6 @@
 import ProjectCard from '../components/ProjectCard';
 
-function Portfolio() {
+function Projects() {
   return (
     <div className="portfolio-page" style={{ padding: '50px 10%' }}>
       <h2 style={{ textAlign: 'center', marginBottom: '40px' }}>My Projects</h2>
@@ -19,4 +19,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default Projects;
