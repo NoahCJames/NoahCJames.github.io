@@ -75,3 +75,49 @@
   box-shadow: inset -6px -2px 0 0 var(--text-color);
   transform: rotate(-15deg);
 }
+
+@media (min-width: 450px) and (max-width: 600px) {
+  .nav-right {
+    gap: 12px;
+  }
+
+  .nav-links {
+    gap: 10px;
+  }
+
+  .nav-links a {
+    font-size: 0.9rem;
+  }
+
+  .logo-link {
+    font-size: 1.5rem;
+    gap: 8px;
+  }
+  
+  .navbar {
+    padding: 1rem 3%;
+  }
+}
+
+@media (max-width: 450px){
+  .nav-right {
+    gap: 12px;
+  }
+
+  .nav-links {
+    gap: 0px;
+  }
+
+  .nav-links a {
+    font-size: 0.9rem;
+  }
+
+  .logo-link {
+    font-size: 1.5rem;
+    gap: 8px;
+  }
+  
+  .navbar {
+    padding: 1rem 3%;
+  }
+}
