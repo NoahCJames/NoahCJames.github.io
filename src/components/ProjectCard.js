@@ -4,7 +4,11 @@ function ProjectCard({ title, description, tech, link, image }) {
   return (
     <div className="project-card">
       <div className="project-image">
-        <img src={image} alt={title} />
+        {image ? (
+          <img src={image} alt={title} />
+        ) : (
+          <div className="image-placeholder">Code Only</div>
+        )}
       </div>
       <div className="project-info">
         <h3>{title}</h3>
