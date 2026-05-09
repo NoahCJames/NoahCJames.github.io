@@ -1,0 +1,13 @@
+.hero-name {
+  font-size: 3rem;
+  margin: 0 0 10px 0;
+  font-weight: bold;
+  color: inherit;
+  line-height: 1.2;
+}
+
+@media (max-width: 600px) {
+  .hero-name {
+    font-size: 2rem;
+  }
+}

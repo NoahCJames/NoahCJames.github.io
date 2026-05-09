@@ -4,7 +4,8 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(4px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,23 +14,24 @@
 }
 
 .modal-content {
-  background: #1f1f1f;
+  background: var(--card-bg);
+  color: var(--text-color);
   width: 100%;
   max-width: 800px;
   max-height: 90vh;
   border-radius: 15px;
   position: relative;
   overflow-y: auto;
-  border: 1px solid #333;
+  border: 1px solid var(--border-color);;
 }
 
 .close-button {
   position: absolute;
   top: 15px;
   right: 20px;
-  background: rgba(31, 31, 31, 0.5);
+  background: var(--border-color);
   border: none;
-  color: #888;
+  color: var(--text-color);
   font-size: 2.5rem;
   cursor: pointer;
   line-height: 0.8;
@@ -49,16 +51,16 @@
   height: auto;
   max-height: 400px;
   object-fit: cover;
-  border-bottom: 2px solid #333;
+  border-bottom: 2px solid var(--border-color);;
 }
 
 .modal-body {
   padding: 30px;
-  color: white;
+  color: var(--text-color);
 }
 
 .modal-tech {
-  color: #00d4ff;
+  color: var(--accent-color);
   font-weight: bold;
   margin-bottom: 15px;
 }
@@ -72,8 +74,8 @@
   display: block;
   width: fit-content;
   padding: 12px 40px;
-  background: #00d4ff;
-  color: #000;
+  background: var(--accent-color);
+  color: var(--bg-color);
   text-decoration: none;
   font-weight: bold;
   border-radius: 8px;

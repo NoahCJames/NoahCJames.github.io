@@ -1,9 +1,14 @@
+import StatusBadge from '../components/StatusBadge';
+import './Home.css';
+
 function Home() {
   return (
     <main className="home-container">
       <section className="hero">
         <div className="hero-content">
+          <h1 className="hero-name">Noah James</h1>
           <h2>Software Engineering Student</h2>
+          <StatusBadge />
           <div className="contact-info">
             <h3>Contact Me:</h3>
             <p>

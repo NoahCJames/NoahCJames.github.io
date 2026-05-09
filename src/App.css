@@ -1,8 +1,33 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #121212;
+  --accent-color: #007bff;
+  --card-bg: #fdfdfd;
+  --nav-bg: #ffffff;
+  --border-color: #e0e0e0;
+  --highlight-color: #b8860b;
+}
+
+[data-theme='dark'] {
+  --bg-color: #121212;
+  --text-color: #ffffff;
+  --accent-color: #00d4ff;
+  --card-bg: #1f1f1f;
+  --nav-bg: #1f1f1f;
+  --border-color: #333333;
+  --highlight-color: #ffcc00;
+}
+
 body {
   margin: 0;
-  background-color: #121212;
-  color: white;
+  background-color: var(--bg-color);
+  color: var(--text-color);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  -webkit-transition: background-color 0.3s ease, color 0.3s ease;
+  -moz-transition: background-color 0.3s ease, color 0.3s ease;
+  -ms-transition: background-color 0.3s ease, color 0.3s ease;
+  -o-transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .navbar {
@@ -10,11 +35,12 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 5%;
-  background: #1f1f1f;
+  background: var(--nav-bg);
+  transition: background 0.3s ease;
 }
 
 .nav-links a {
-  color: white;
+  color: var(--text-color);
   text-decoration: none;
   margin-left: 20px;
   padding: 5px 10px;
@@ -23,7 +49,7 @@ body {
 }
 
 .nav-links a:hover {
-  border: 1px solid white;
+  border: 1px solid var(--text-color);
 }
 
 .hero {
@@ -33,11 +59,13 @@ body {
   min-height: 80vh;
   padding: 0 10%;
   flex-wrap: wrap;
+  background-color: var(--bg-color);
 }
 
 .profile-photo {
   max-width: 400px;
   border-radius: 15px;
+  border: 1px solid var(--border-color);
   box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
 

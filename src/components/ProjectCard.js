@@ -1,6 +1,6 @@
 import './ProjectCard.css';
 
-function ProjectCard({ title, description, tech, link, image }) {
+function ProjectCard({ title, date, description, tech, link, image }) {
   return (
     <div className="project-card">
       <div className="project-image">
@@ -11,7 +11,10 @@ function ProjectCard({ title, description, tech, link, image }) {
         )}
       </div>
       <div className="project-info">
-        <h3>{title}</h3>
+        <div className="project-header">
+          <h3>{title}</h3>
+          <span className="project-date">{date}</span>
+        </div>
         <p className="tech-stack"><strong>Tech:</strong> {tech}</p>
         <p>{description}</p>
         <div className="project-button">View Project</div>
