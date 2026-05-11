@@ -15,7 +15,7 @@ function ProjectCard({ title, date, description, tech, link, image }) {
           <h3>{title}</h3>
           <span className="project-date">{date}</span>
         </div>
-        <p className="tech-stack"><strong>Tech:</strong> {tech}</p>
+        <p className="tech-stack"><strong>Tech:</strong> {tech.join(', ')}</p>
         <p>{description}</p>
         <div className="project-button">View Project</div>
       </div>

@@ -51,6 +51,17 @@
   padding-left: 15px;
 }
 
+.resume-section ul {
+  padding-left: 20px; 
+  margin-top: 10px;
+  list-style-type: disc;
+}
+
+.resume-section li {
+  margin-bottom: 8px;
+  color: var(--text-color);
+}
+
 .resume-item {
   margin-bottom: 20px;
 }
@@ -73,10 +84,6 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
-  background: var(--card-bg);
-  padding: 25px;
-  border-radius: 12px;
-  border: 1px solid var(--border-color);
 }
 
 .skill-cat strong {
@@ -85,7 +92,11 @@
 }
 
 .resume-embed-container {
-  margin-top: 60px;
+  margin-top: 40px;
+}
+
+.resume-embed-container h3 {
+  margin-bottom: 15px;
 }
 
 .resume-iframe {

@@ -29,6 +29,14 @@ function Projects() {
       image: process.env.PUBLIC_URL + "/RoseShreddedNerds.png" 
     },
     {
+      title: "Full-Stack Soccer Hub & Schedule Manager",
+      date: "2025-11",
+      tech: ["React", "Python", "Flask", "JavaScript", "HTML", "CSS", "API"],
+      description: "A full-stack sports platform featuring real-time league tracking and secure personal match scheduling.",
+      longDescription: "Developed for CSSE280, this project integrates a React frontend with a Flask backend to provide a seamless experience for soccer fans. I implemented JWT-based authentication for secure user sessions and built a custom Data Service layer in Python to handle SQLite persistence. The app fetches live data from global football APIs for five major European leagues and allows users to manage a personalized match schedule with full CRUD functionality.",
+      image: process.env.PUBLIC_URL + "SoccerScoredAndStandings.png"
+    },
+    {
       title: "Fall Jump",
       date: "2024-01",
       buttonText: "Play!",
@@ -83,7 +91,7 @@ function Projects() {
             <ProjectCard 
               title={project.title}
               date={project.date}
-              tech={project.tech.join(', ')}
+              tech={project.tech}
               description={project.description}
               image={project.image}
               link="#" 

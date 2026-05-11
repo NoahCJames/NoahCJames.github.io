@@ -12,7 +12,7 @@ function ProjectModal({ project, onClose }) {
         
         <div className="modal-body">
           <h2>{project.title}</h2>
-          <p className="modal-tech">Built with: {project.tech}</p>
+          <p className="modal-tech">Built with: {project.tech.join(', ')}</p>
           <div className="modal-description">
             <p>{project.longDescription}</p>
           </div>
