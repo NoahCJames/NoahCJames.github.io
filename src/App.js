@@ -23,10 +23,10 @@ function App() {
         </Routes>
         <ScrollToTop />
         <Footer />
-      </div>
 
-      <Analytics />
-      <SpeedInsights />
+        <Analytics />
+        <SpeedInsights />
+      </div>
     </Router>
   );
 }
