@@ -10,12 +10,23 @@ function Projects() {
 
   const projects = [
     {
+      title: "Topdown Tactix",
+      date: "2026-06 - Present",
+      buttonText: "GitHub Repository",
+      tech: ["React", "Node.js", "Socket.io", "Matter.js", "TypeScript", "Vite", "Git"],
+      description: "A real-time, 1v1 multiplayer soccer engine featuring custom physics and automated CI/CD workflows.",
+      longDescription: "TopDown Tactix is an ongoing full-stack engineering project built to demonstrate proficiency in real-time game architecture. I engineered a custom 2D physics engine using Matter.js, implementing deterministic boundary constraints and collision detection. To handle real-time state synchronization, I built a monorepo architecture with a React frontend and a Node.js/Socket.io backend. A major focus of this project is 'production-readiness': I implemented custom GitHub Kanban workflows for automated PR lifecycle tracking, configured Vite for efficient bundling, and managed deployment through Vercel and Render. The project highlights my ability to bridge complex client-side rendering with server-side logic and scalable infrastructure.",
+      link: "https://github.com/rhit-jamesnc/TopDown-Tactix",
+      image: process.env.PUBLIC_URL + ""
+    },
+    {
       title: "Forbidden Island",
       date: "2026-05",
+      buttonText: "GitHub Repository",
       tech: ["Java", "Swing"],
       description: "A logic-driven digital adaptation of the board game with a focus on Software Quality Assurance and Test Driven Development.",
       longDescription: "This project served as the primary codebase for my Software Quality Assurance course. The main challenge was managing complex game states—like the pathfinding for sinking tiles and unique player abilities—while maintaining a high degree of testability. I used a Test-Driven Development (TDD) approach, building out JUnit suites alongside the core mechanics to ensure stability. The focus was on creating a clean, modular back-end where the game logic is decoupled from the UI, making the system easy to verify and maintain.",      
-      link: null,
+      link: "https://github.com/rhit-jamesnc/ForbiddenIsland",
       image: process.env.PUBLIC_URL + "/ForbiddenIsland.png"
     },
     {
