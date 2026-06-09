@@ -11,13 +11,12 @@ function Projects() {
   const projects = [
     {
       title: "Topdown Tactix",
-      date: "2026-06 - Present",
+      date: "In Development",
       buttonText: "GitHub Repository",
       tech: ["React", "Node.js", "Socket.io", "Matter.js", "TypeScript", "Vite", "Git"],
       description: "A real-time, 1v1 multiplayer soccer engine featuring custom physics and automated CI/CD workflows.",
       longDescription: "TopDown Tactix is an ongoing full-stack engineering project built to demonstrate proficiency in real-time game architecture. I engineered a custom 2D physics engine using Matter.js, implementing deterministic boundary constraints and collision detection. To handle real-time state synchronization, I built a monorepo architecture with a React frontend and a Node.js/Socket.io backend. A major focus of this project is 'production-readiness': I implemented custom GitHub Kanban workflows for automated PR lifecycle tracking, configured Vite for efficient bundling, and managed deployment through Vercel and Render. The project highlights my ability to bridge complex client-side rendering with server-side logic and scalable infrastructure.",
-      link: "https://github.com/rhit-jamesnc/TopDown-Tactix",
-      image: process.env.PUBLIC_URL + ""
+      link: "https://github.com/rhit-jamesnc/TopDown-Tactix"
     },
     {
       title: "Forbidden Island",
