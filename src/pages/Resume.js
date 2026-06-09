@@ -21,8 +21,8 @@ function Resume() {
             <strong>Rose-Hulman Institute of Technology</strong>
             <span>May 2028</span>
           </div>
-          <p>B.S. in Software Engineering | GPA: 3.29 (Major: 3.33)</p>
-          <p className="honors">Dean's List: Spring 2025, Fall 2025, & Winter 2026</p>
+          <p>B.S. in Software Engineering | GPA: 3.35 (Major: 3.43)</p>
+          <p className="honors">Dean's List: Spring 2025, Fall 2025, Winter 2026, & Spring 2026</p>
         </div>
       </section>
 
