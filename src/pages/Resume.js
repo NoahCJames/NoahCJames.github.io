@@ -30,7 +30,7 @@ function Resume() {
         <h3>Technical Skills</h3>
         <div className="skills-grid">
           <div className="skill-cat">
-            <strong>Languages:</strong> Java, C, Python, JavaScript, SQL, HTML/CSS
+            <strong>Languages:</strong> Java, C, Python, JavaScript, TypeScript, SQL, HTML/CSS
           </div>
           <div className="skill-cat">
             <strong>Software:</strong> React, Git, VS Code, Linux, GameMaker
