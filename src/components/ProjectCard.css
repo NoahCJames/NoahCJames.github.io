@@ -78,6 +78,11 @@
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.project-button:hover {
+  background: #00b8e6;
 }
 
 .image-placeholder {

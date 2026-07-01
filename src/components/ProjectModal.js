@@ -17,11 +17,19 @@ function ProjectModal({ project, onClose }) {
             <p>{project.longDescription}</p>
           </div>
           
-          {project.link && (
-            <a href={project.link} target="_blank" rel="noreferrer" className="play-button">
-              {project.buttonText}
-            </a>
-          )}
+          <div className="modal-links-container">
+            {project.links && project.links.map((link, index) => (
+              <a 
+                key={index} 
+                href={link.url} 
+                target="_blank" 
+                rel="noreferrer" 
+                className="action-button"
+              >
+                {link.text}
+              </a>
+            ))}
+          </div>
         </div>
       </div>
     </div>
