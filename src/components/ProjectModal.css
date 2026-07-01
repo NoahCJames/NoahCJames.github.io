@@ -70,18 +70,25 @@
   margin-bottom: 30px;
 }
 
-.play-button {
-  display: block;
-  width: fit-content;
-  padding: 12px 40px;
+.modal-links-container {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.action-button {
+  display: inline-block;
+  padding: 12px 25px;
   background: var(--accent-color);
   color: var(--bg-color);
   text-decoration: none;
   font-weight: bold;
   border-radius: 8px;
   text-align: center;
+  transition: background 0.3s ease;
 }
 
-.play-button:hover {
+.action-button:hover {
   background: #00b8e6;
 }
