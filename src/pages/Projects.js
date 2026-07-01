@@ -19,6 +19,7 @@ function Projects() {
       links: [
         { text: "Preview!", url: "https://topdown-tactix.vercel.app/" },
         { text: "GitHub Repo", url: "https://github.com/rhit-jamesnc/TopDown-Tactix" },
+        { text: "ReadMe", url: "https://github.com/rhit-jamesnc/TopDown-Tactix/blob/main/README.md"},
         { text: "Documentation", url: "https://github.com/rhit-jamesnc/TopDown-Tactix/tree/main/docs" }
       ]
     },
