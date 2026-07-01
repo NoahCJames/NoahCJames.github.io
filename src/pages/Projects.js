@@ -13,9 +13,9 @@ function Projects() {
       title: "TopDown Tactix",
       date: "In Development",
       buttonText: "Preview!",
-      tech: ["React", "Node.js", "Socket.io", "Matter.js", "TypeScript", "Vite", "Game Design", "HTML", "CSS"],
-      description: "A real-time, 1v1 multiplayer soccer engine featuring custom physics and automated CI/CD workflows.",
-      longDescription: "TopDown Tactix is an ongoing full-stack engineering project built to demonstrate proficiency in real-time game architecture. I engineered a custom 2D physics engine using Matter.js, implementing deterministic boundary constraints and collision detection. To handle real-time state synchronization, I built a monorepo architecture with a React frontend and a Node.js/Socket.io backend. A major focus of this project is 'production-readiness': I implemented custom GitHub Kanban workflows for automated PR lifecycle tracking, configured Vite for efficient bundling, and managed deployment through Vercel and Render. The project highlights my ability to bridge complex client-side rendering with server-side logic and scalable infrastructure.",
+      tech: ["React", "TypeScript", "Node.js", "Socket.io", "Matter.js", "Vitest", "CI/CD"],
+      description: "A high-performance, real-time soccer engine featuring server-authoritative physics and difficulty-scaled AI.",
+      longDescription: "TopDown Tactix is a real-time multiplayer soccer engine engineered for deterministic stability. I developed a server-authoritative architecture using Socket.io and Matter.js to ensure a single source of truth, effectively eliminating client-side cheating. Key technical accomplishments include: implementing a custom sub-stepped physics loop for frame-rate independence, developing an AI controller with difficulty-scaled reaction delays and force multipliers, and maintaining a robust test suite with Vitest to guarantee deterministic behavior. The project utilizes a monorepo structure to share types between client and server, ensuring a strict, type-safe development environment. It is fully containerized and deployed with automated CI/CD pipelines.",
       link: "https://topdown-tactix.vercel.app/",
       image: process.env.PUBLIC_URL + "/TopDown-Tactix-Home.png"
     },
