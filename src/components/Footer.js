@@ -4,7 +4,7 @@ import './Footer.css';
 function Footer() {
   return (
     <footer className="main-footer">
-      <p>Last Updated: May 2026</p>
+      <p>Last Updated: June 2026</p>
       <div className="social-links">
         <a 
           href="https://www.linkedin.com/in/noah-james-b90127321/" 
