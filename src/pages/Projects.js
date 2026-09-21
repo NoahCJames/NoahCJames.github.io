@@ -22,7 +22,7 @@ function Projects() {
     {
       title: "TopDown Tactix",
       date: "2026-06",
-      tech: ["React", "TypeScript", "Node.js", "Socket.io", "Matter.js", "Vitest", "CI/CD"],
+      tech: ["React", "TypeScript", "Node.js", "Socket.io", "Matter.js", "Vitest", "CI/CD", "Game Design"],
       description: "A high-performance, real-time soccer engine featuring server-authoritative physics, TDD-validated mechanics, and difficulty-scaled AI.",
       longDescription: "TopDown Tactix is a real-time multiplayer soccer engine engineered for deterministic stability. I developed a server-authoritative architecture using Socket.io and Matter.js to ensure a single source of truth, effectively eliminating client-side cheating. The project follows a strict Test-Driven Development (TDD) workflow: I first implement a simple failing test for core mechanics (like collision detection or movement), write the minimal code to pass, refine the test to cover edge cases, and refactor for performance. Key technical accomplishments include: implementing a custom sub-stepped physics loop for frame-rate independence, developing an AI controller with difficulty-scaled reaction delays, and maintaining a robust test suite with Vitest. The project uses a monorepo for shared types between client and server and is fully containerized with automated CI/CD pipelines.",
       image: process.env.PUBLIC_URL + "/TopDown-Tactix-Home.png",
@@ -36,7 +36,7 @@ function Projects() {
     {
       title: "Forbidden Island",
       date: "2026-05",
-      tech: ["Java", "Swing"],
+      tech: ["Java", "Swing", "Game Design"],
       description: "A logic-driven digital adaptation of the board game with a focus on Software Quality Assurance and Test Driven Development.",
       longDescription: "This project served as the primary codebase for my Software Quality Assurance course. The main challenge was managing complex game states—like the pathfinding for sinking tiles and unique player abilities—while maintaining a high degree of testability. I used a Test-Driven Development (TDD) approach, building out JUnit suites alongside the core mechanics to ensure stability. The focus was on creating a clean, modular back-end where the game logic is decoupled from the UI, making the system easy to verify and maintain.",      
       image: process.env.PUBLIC_URL + "/ForbiddenIsland.png",
