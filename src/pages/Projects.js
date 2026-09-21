@@ -10,6 +10,16 @@ function Projects() {
 
   const projects = [
     {
+      title: "PitchVision",
+      date: "In Development",
+      tech: ["Python", "YOLO", "ByteTrack", "Computer Vision", "OpenCV"],
+      description: "A computer vision framework for automated match analysis, player tracking, and spatial pitch mapping.",
+      longDescription: "PitchVision is an advanced sports analytics platform designed to analyze soccer match footage in real time. Built with Python, it leverages YOLO object detection models alongside ByteTrack for high-precision player, referee, and ball tracking. The system translates raw video feeds into actionable metrics by performing pitch mapping and geometric transformations to calculate spatial analytics and expected pass completion probabilities.",
+      links: [
+        { text: "GitHub Repository", url: "https://github.com/rhit-jamesnc/PitchVision" }
+      ]
+    },
+    {
       title: "TopDown Tactix",
       date: "2026-06",
       tech: ["React", "TypeScript", "Node.js", "Socket.io", "Matter.js", "Vitest", "CI/CD"],
