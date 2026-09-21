@@ -11,7 +11,7 @@ function Projects() {
   const projects = [
     {
       title: "TopDown Tactix",
-      date: "In Development",
+      date: "2026-06",
       tech: ["React", "TypeScript", "Node.js", "Socket.io", "Matter.js", "Vitest", "CI/CD"],
       description: "A high-performance, real-time soccer engine featuring server-authoritative physics, TDD-validated mechanics, and difficulty-scaled AI.",
       longDescription: "TopDown Tactix is a real-time multiplayer soccer engine engineered for deterministic stability. I developed a server-authoritative architecture using Socket.io and Matter.js to ensure a single source of truth, effectively eliminating client-side cheating. The project follows a strict Test-Driven Development (TDD) workflow: I first implement a simple failing test for core mechanics (like collision detection or movement), write the minimal code to pass, refine the test to cover edge cases, and refactor for performance. Key technical accomplishments include: implementing a custom sub-stepped physics loop for frame-rate independence, developing an AI controller with difficulty-scaled reaction delays, and maintaining a robust test suite with Vitest. The project uses a monorepo for shared types between client and server and is fully containerized with automated CI/CD pipelines.",
